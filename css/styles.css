@@ -2,7 +2,7 @@ body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-
+  color: #40514E;
 }
 h1{
   font-size: 5.625rem; /*90px*/
@@ -22,11 +22,18 @@ h3{
   margin: 50px auto;
 }
 
+p{
+    line-height: 2;
+}
 .programmer{
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
 
+}
+.intro{
+  width: 40%;
+  margin: auto;
 }
 .topcontainer{
   background-color: #ccf2f4;
@@ -50,10 +57,14 @@ h3{
   color: white;
   border: none;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 10px;
   position: relative;
   top: 50px;
+}
+
+.btn:hover{
+  background: #30e3cb;
 }
 .footer-link{
   font-family: 'Montserrat', sans-serif;
@@ -69,15 +80,21 @@ h3{
   padding-top: 30px;
   margin-bottom: 0;
   padding-bottom: 30px;
-
+  color: #eaf6f6;
+  font-size: 10px;
 }
 
 hr{
   border: none;
-  border-top: 5px dotted #EAF6F6;
+  border-top: 10px dotted #EAF6F6;
   width: 5%;
   height: 0;
   margin: 50px auto;
+}
+
+a:hover{
+  color: #eaf6f6;
+
 }
 .profile{
 margin: 100px auto ;
@@ -90,7 +107,6 @@ margin: 100px auto ;
     height: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 
@@ -127,4 +143,9 @@ margin: 100px auto ;
   float: right;
   margin-left:  30px;
   position: relative;
+}
+
+.contactmsg{
+  width: 40%;
+  margin: 60px auto 40px;
 }
