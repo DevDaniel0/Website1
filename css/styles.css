@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1{
+  font-size: 5.625rem; /*90px*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 50px auto;
+}
+
+.programmer{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+.topcontainer{
+  background-color: #ccf2f4;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.middle-container{
+  margin: 100px auto;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 50px auto 0 auto;
+  padding-top: 50px;
+}
+
+.btn{
+  background-color: #66BFBF;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+}
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+  margin: 3%;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+
+.signature{
+  padding-top: 30px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+
+}
+
+hr{
+  border: none;
+  border-top: 5px dotted #EAF6F6;
+  width: 5%;
+  height: 0;
+  margin: 50px auto;
+}
+.profile{
+margin: 100px auto ;
+}
+.skills{
+  margin: 100px auto;
+}
+.skill-row{
+    width: 50%;
+    height: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.fitness-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.computer-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  float: right;
+  margin-left:  30px;
+  position: relative;
+}
